@@ -1,10 +1,10 @@
 <nav class="modulos">
     <div class="modulo vermelho">
-        <h3>12. </h3>
+        <h3>12. Sessão & Cookie</h3>
         <ul>
             <li>
-                <a href="exercicio.php?dir=#&file=#">
-                    #
+                <a href="exercicio.php?dir=sessao_cookie&file=basico_sessao">
+                    Sessão
                 </a>
             </li>
 
