@@ -1,0 +1,1 @@
+Leandro Baroni © <?= date('Y');
