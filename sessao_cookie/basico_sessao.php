@@ -11,9 +11,15 @@ if(!$_SESSION['nome']){
 if(!$_SESSION['email']){
     $_SESSION['email'] = 'gabriel@hotmail.com';
 }
+print_r($_SESSION);
 ?>
 <p>
-    <a href = '/sessao/basico_alterar_sessao.php'>
+    <a href = 'exercicio.php?dir=sessao_cookie&file=basico_alterar_sessao'>
         Alterar Sessão
+    </a>
+</p>
+<p>
+    <a href = 'exercicio.php?dir=sessao_cookie&file=basico_limpar_sessao'>
+        Limpar Sessão
     </a>
 </p>

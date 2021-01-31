@@ -7,7 +7,11 @@
                     Sessão
                 </a>
             </li>
-
+            <li>
+                <a href="exercicio.php?dir=sessao_cookie&file=gerenciando_sessao">
+                    Gerenciamento de Sessão
+                </a>
+            </li>
         </ul>
     </div>
     <div class="modulo verde">
