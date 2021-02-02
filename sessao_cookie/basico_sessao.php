@@ -6,10 +6,10 @@ session_start();
 print_r($_SESSION);
 echo "<br>";
 if(!$_SESSION['nome']){
-    $_SESSION['nome'] = 'Gabriel';
+    $_SESSION['nome'] = 'Leandro hueheu';
 }
 if(!$_SESSION['email']){
-    $_SESSION['email'] = 'gabriel@hotmail.com';
+    $_SESSION['email'] = 'lb@hotmail.com';
 }
 print_r($_SESSION);
 ?>

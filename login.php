@@ -26,8 +26,8 @@ if($_SESSION['email']){
             $_SESSION['usuario'] = $usuario['nome'];
             $exp = time() + 60 * 60 *24 * 30;
             setcookie('usuario', $usuario['nome'], $exp);
-             
-            header('Location: exercicio.php?dir=#file=index.php');
+            
+            header('Location: index.php');
         }
     }
     if(!$_SESSION['usuario']){

@@ -1,4 +1,55 @@
 <nav class="modulos">
+    <div class="modulo roxo">
+        <h3>14. Formulário</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=formulario&file=formulario">
+                    Formulário
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="modulo azul">
+        <h3>13. API</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=api&file=datas_01">
+                    Data #01
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=datas_02">
+                    Data #02
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=escreverArquivos">
+                    Escrever Arquivos
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=lendoArquivos">
+                    Lendo Arquivos
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=upload">
+                    Upload de Arquivos
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=download_arquivo">
+                    Download de Arquivos
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=desafio_imagens">
+                    Desafio
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="modulo vermelho">
         <h3>12. Sessão & Cookie</h3>
         <ul>
