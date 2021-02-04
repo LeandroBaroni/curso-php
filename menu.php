@@ -1,4 +1,49 @@
 <nav class="modulos">
+    <div class="modulo laranja">
+        <h3>15. Banco de Dados</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=criar_banco">
+                    Criar Banco de Dados
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=criar_tabela">
+                    Criar Tabela
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=inserir_01">
+                    Inserir #01
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=consultar">
+                    Consultar
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=excluir1">
+                    Excluir Registro #01
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=excluir2">
+                    Excluir Registro #02
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=inserir_02">
+                    Inserir Registro #02
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=alterar">
+                    Alterar Registro
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="modulo roxo">
         <h3>14. Formulário</h3>
         <ul>

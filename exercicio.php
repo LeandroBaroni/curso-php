@@ -23,7 +23,7 @@ if(!$_SESSION['usuario']){
         <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
-        <span class="usuario">Usuário: <?= $_SESSION['nome'] ?></span>
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
 
         <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> 
             class="verde">Sem formatação</a>
