@@ -28,11 +28,6 @@
                 </a>
             </li>
             <li>
-                <a href="exercicio.php?dir=bancoDeDados&file=excluir2">
-                    Excluir Registro #02
-                </a>
-            </li>
-            <li>
                 <a href="exercicio.php?dir=bancoDeDados&file=inserir_02">
                     Inserir Registro #02
                 </a>
@@ -40,6 +35,31 @@
             <li>
                 <a href="exercicio.php?dir=bancoDeDados&file=alterar">
                     Alterar Registro
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=conexao_pdo">
+                    Conexão PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=inserir_pdo">
+                    Inserir PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=consulta_pdo">
+                    Consulta PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=excluir_pdo">
+                    Excluir PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=bancoDeDados&file=alterar_pdo">
+                    Alterar PDO
                 </a>
             </li>
         </ul>
