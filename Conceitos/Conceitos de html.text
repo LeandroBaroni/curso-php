@@ -1,0 +1,73 @@
+TCP/IP{
+    Topologia Distribuida foi vista como uma forma menos centralizada de estruturação da WEB, pois se um servidor cair é possivel continuar a transmissão de dados atraves de outras rotas.
+    TCP é o mais utilizado nas comunicação de rede.
+}
+
+Protocolo HTTP{
+    Hyper Text Transfer Protocol (Protocolo de transeferencia de hipertexto),
+    hipertexto é um texto com links e referencias.
+    São documentos HTML que fazem referencias a arquivos de varios formatos.
+    Carateristicas{
+        1 - Faz parte da Camada de Aplicação do TCP/IP,
+        2 - Stateless: toda conexão não possui um estado.
+        3 - É baseado na estrutura de cliente/servidor.
+        4 - É um protocolo que faz referencia as páginas WEB.
+        }
+    Passos{
+        1 - Usuario informa a URL
+        2 - Browser gera a requisição
+        3 - Servidor WEB gera a resposta
+        4 - Browser exibe a página
+        }
+    Grupos de Status de Mensagem{
+        1 - 1XX: Informação
+        2 - 2XX: Sucesso
+        3 - 3XX: Redirecionamento
+        4 - 4XX: Erro no Cliente
+        5 - 5XX: Erro no Servidor
+        }
+}
+Servidor WEB{
+    Servidor DNS serve para traduzir o dominio de uma página WEB para um endereço IP
+    Estrutura de pastas com arquivos estaticos e/ou conteudo dinamico.
+    Web Stack é um conjunto de ferramentas que apoiam o desenvolvimento web, geralmente com o apoio de uso ao localhost,
+        permissão de uso de banco de dados.
+    SOAP (Simple Object Access Protocol) descreve metodos e serviços utilizados, fazendo evocação de protocolos
+    REST (Representation State Transfer) Requisições e respostas de serviço.
+
+    Arquitetura
+    SOA - arquitetura baseada em serviços disponiveis instalados no barramento de serviços
+    Micro-serviços - São equipes formadas para uma função especifica
+}
+
+Client Side vs Server Side{
+
+}
+Estatico vs Dinamico{
+    Conteudo estático é o conteudo gerado a partir do conteudo de arquivos e dados.
+    Conteudo dinamico é todo aquele conteudo gerado a partir de código de programação.
+}
+HTML, CSS e JS{
+    HTML é utilizado para realizar a estruturação do layout de uma pagina web.
+}
+
+DNS{
+    Servidor DNS serve para mapear o nome de dominio, servidores de email para endereços IPs
+    DNS funciona sobre o  protocolo UDP na porta 53
+    Este informa o endereço no browser, assim o computador envia uma consulta DNS para o servidor local e recebe
+     a resposta com o dendereço IP, permitindo o acesso ao servidor.
+
+}
+
+HTTPS{
+    HTTP seguro. HTTP+SSL. É um protocolo criptografado com os certificados SSL/TLS.
+    Protege contra interceptação(Man In The Middle - MITM).
+    A criptografia é realizada na URL, nos cookies e headers.
+
+    Autoridades certificadoras pode ser instalado para realizar a criptografia do browser.
+
+}
+
+Computação em nuvem{
+    Servidores (em geral são máquinas Linux)
+}
