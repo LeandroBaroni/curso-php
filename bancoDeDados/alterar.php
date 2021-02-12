@@ -85,7 +85,7 @@ if(count($_POST) > 0){
             $dados['email'],
             $dados['site'],
             $dados['filhos'],
-            $dados['salario'] ? str_replace(".", ",", $dados['salario']),
+            $dados['salario'] ? str_replace(".", ",", $dados['salario']):
             $dados['id'],
         ];
         $statement->bind_param("ssssidi", ...$params);
