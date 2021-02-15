@@ -23,6 +23,7 @@ if(!$_SESSION['usuario']){
     </header>
     <nav class="navegacao">
         <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a href="html/index.php">Exercicios HTML</a>
         <a href="logout.php">Sair</a>
     </nav>
     <main class="principal">

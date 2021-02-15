@@ -1,5 +1,30 @@
 <nav class="modulos">
     <div class="modulo laranja">
+        <h3>16. Extra: HTML</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=html&file=arquivo1">
+                    Anatomia da Tag
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=html&file=anatomia_pagina_html">
+                    Anatomia da Página HTML
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=html&file=umpoucodecss">
+                    Um pouco de CSS
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=html&file=index">
+                    Index de Exercícios
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="modulo laranja">
         <h3>15. Banco de Dados</h3>
         <ul>
             <li>
