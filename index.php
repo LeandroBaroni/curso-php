@@ -24,6 +24,8 @@ if(!$_SESSION['usuario']){
     <nav class="navegacao">
         <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
         <a href="html/index.php">Exercicios HTML</a>
+        <a href="exercicioCSS/index.php">Exercicios CSS</a>
+        <a href="dom/index.php">HTML, JS e CSS</a>
         <a href="logout.php">Sair</a>
     </nav>
     <main class="principal">
