@@ -23,9 +23,12 @@ if(!$_SESSION['usuario']){
     </header>
     <nav class="navegacao">
         <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
-        <a href="html/index.php">Exercicios HTML</a>
-        <a href="exercicioCSS/index.php">Exercicios CSS</a>
+        <a href="html/index.php">Extra: HTML</a>
+        <a href="exercicioCSS/index.php">Extra: CSS</a>
         <a href="dom/index.php">HTML, JS e CSS</a>
+        <a href="ajax/index.php">Ajax</a>
+        <a href="jquery/index.#">JQuery</a>
+        <a href="banco/index.#">B. Relacional</a>
         <a href="logout.php">Sair</a>
     </nav>
     <main class="principal">

@@ -45,7 +45,7 @@ function ParDeBarreiras(altura, abertura, x){
 // const b = new ParDeBarreiras(700, 200, 400)
 // document.querySelector('[wm-flappy]').appendChild(b.elemento)
 
-function Barreiras(altura, largura, abertura, espaco, modificarPonto){
+function Barreiras(altura, largura, abertura, espaco, notificarPonto) {
     this.pares = [
         new ParDeBarreiras(altura, abertura, largura),
         new ParDeBarreiras(altura, abertura, largura + espaco),
@@ -56,22 +56,22 @@ function Barreiras(altura, largura, abertura, espaco, modificarPonto){
     const deslocamento = 3
     this.animar = () => {
         this.pares.forEach(par => {
-            .par.setX(par.getX() - deslocamento)
+            par.setX(par.getX() - deslocamento)
 
-            //quando elemento sair da tela
-            if(par.getX() < -par.getLargura()){
+            // quando o elemento sair da área do jogo
+            if (par.getX() < -par.getLargura()) {
                 par.setX(par.getX() + espaco * this.pares.length)
                 par.sortearAbertura()
             }
 
-            const meio = largura/2
-            const cruzouMeio = par.getX() + deslocamento >= meio && par.getX() < meio
-            if(cruzouMeio){
-                notificarPonto()
-            }
+            const meio = largura / 2
+            const cruzouOMeio = par.getX() + deslocamento >= meio
+                && par.getX() < meio
+            if(cruzouOMeio) notificarPonto()
         })
     }
 }
+
 function Passaro(alturaJogo){
     let voando = false
 
