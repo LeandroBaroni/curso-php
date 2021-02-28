@@ -27,7 +27,7 @@ if(!$_SESSION['usuario']){
         <a href="exercicioCSS/index.php">Extra: CSS</a>
         <a href="dom/index.php">HTML, JS e CSS</a>
         <a href="ajax/index.php">Ajax</a>
-        <a href="jquery/index.#">JQuery</a>
+        <a href="jquery/index.php">JQuery</a>
         <a href="banco/index.#">B. Relacional</a>
         <a href="logout.php">Sair</a>
     </nav>
